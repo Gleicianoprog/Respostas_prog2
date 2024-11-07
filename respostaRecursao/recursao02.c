@@ -1,4 +1,4 @@
-aa#include<stdio.h>
+#include<stdio.h>
 int SomaElementosPares(int *vet,int numElementos);
 int main(){
     int vetTeste[5]={2,2,3,22,5};
