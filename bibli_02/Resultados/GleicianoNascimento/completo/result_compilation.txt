@@ -1,0 +1,4 @@
+matrix_utils.c: In function ‘matrix_print’:
+matrix_utils.c:13:5: warning: statement with no effect [-Wunused-value]
+   13 |     for (i ; i < rows; i++){
+      |     ^~~
