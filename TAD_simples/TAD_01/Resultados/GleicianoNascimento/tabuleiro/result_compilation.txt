@@ -1,0 +1,4 @@
+tabuleiro.c: In function ‘CriaTabuleiro’:
+tabuleiro.c:9:5: warning: statement with no effect [-Wunused-value]
+    9 |     for(i;i<TAM_TABULEIRO;i++){
+      |     ^~~
