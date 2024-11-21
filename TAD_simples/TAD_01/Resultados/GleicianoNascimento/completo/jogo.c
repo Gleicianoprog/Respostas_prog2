@@ -18,12 +18,12 @@ int AcabouJogo(tJogo jogo){
 void ComecaJogo(tJogo jogo){
     int jogador=1;
     while(!AcabouJogo(jogo)&&!VenceuJogador(jogo.jogador1,jogo.tabuleiro)&&!VenceuJogador(jogo.jogador2, jogo.tabuleiro)){
-        printf("Jogador %d\nDigite uma posicao (x e y):\n",jogador);
         if(jogador==1){
             jogo.tabuleiro=JogaJogador(jogo.jogador1, jogo.tabuleiro);
             ImprimeTabuleiro(jogo.tabuleiro);
             if(VenceuJogador(jogo.jogador1,jogo.tabuleiro)){
                 printf("JOGADOR 1 Venceu!\n");
+                printf("Jogar novamente? (s,n)\n");
             }
             jogador=2;
         }else{
@@ -31,9 +31,14 @@ void ComecaJogo(tJogo jogo){
             ImprimeTabuleiro(jogo.tabuleiro);
             if(VenceuJogador(jogo.jogador2,jogo.tabuleiro)){
                 printf("JOGADOR 2 Venceu!\n");
+                printf("Jogar novamente? (s,n)\n");
             }
             jogador=1;
         }
+    }
+    if(AcabouJogo(jogo)&&!VenceuJogador(jogo.jogador1,jogo.tabuleiro)&&!VenceuJogador(jogo.jogador2, jogo.tabuleiro)){
+        printf("Sem vencedor!\n");
+        printf("Jogar novamente? (s,n)\n");
     }
 }
 int ContinuaJogo(){

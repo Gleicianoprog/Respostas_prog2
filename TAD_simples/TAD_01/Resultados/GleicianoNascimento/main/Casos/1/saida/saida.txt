@@ -54,7 +54,6 @@ Jogada [0,2]!
 	XXX
 JOGADOR 1 Venceu!
 Jogar novamente? (s,n)
-Jogar novamente? (s,n)
 Jogador 1
 Digite uma posicao (x e y):
 Jogada [1,1]!
@@ -132,7 +131,6 @@ Jogada [0,2]!
 	XXX
 JOGADOR 1 Venceu!
 Jogar novamente? (s,n)
-Jogar novamente? (s,n)
 Jogador 1
 Digite uma posicao (x e y):
 Jogada [0,0]!
@@ -171,7 +169,6 @@ Jogada [0,2]!
 	0--
 JOGADOR 2 Venceu!
 Jogar novamente? (s,n)
-Jogar novamente? (s,n)
 Jogador 1
 Digite uma posicao (x e y):
 Jogada [0,0]!
@@ -209,7 +206,6 @@ Jogada [0,2]!
 	X0-
 	0--
 JOGADOR 2 Venceu!
-Jogar novamente? (s,n)
 Jogar novamente? (s,n)
 Jogador 1
 Digite uma posicao (x e y):
@@ -254,5 +250,4 @@ Jogada [2,1]!
 	-XX
 	-0X
 JOGADOR 1 Venceu!
-Jogar novamente? (s,n)
 Jogar novamente? (s,n)

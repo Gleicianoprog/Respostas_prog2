@@ -10,20 +10,23 @@ tJogador CriaJogador(int idJogador){
 tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
     tJogada jogadaAtual;
     while(1){
+        printf("Jogador %d\n",jogador.id);
         jogadaAtual=LeJogada();
         if(FoiJogadaBemSucedida(jogadaAtual)){
+            if(!EhPosicaoValidaTabuleiro(jogadaAtual.x,jogadaAtual.y)){
+                printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+                continue;
+            }
             if(EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual))){
                 printf("Jogada [%d,%d]!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
                 tabuleiro=MarcaPosicaoTabuleiro(tabuleiro, jogador.id,ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
                 break;
             }else{
                 printf("Posicao invalida (OCUPADA - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
-                printf("Jogador %d\nDigite uma posicao (x e y):\n",jogador.id);
                 continue;
             }
         }else{
-            printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
-            printf("Jogador %d\nDigite uma posicao (x e y):\n",jogador.id);
+            printf("Formato invalido!\n");
             continue;
         }
     }
@@ -34,11 +37,13 @@ int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro){
     if(jogador.id==1){
         for ( i = 0; i <TAM_TABULEIRO; i++){
             if(tabuleiro.posicoes[i][0]=='X'&&tabuleiro.posicoes[i][1]=='X'&&tabuleiro.posicoes[i][2]=='X'){
+
                 return 1;
             }
         }
         for ( i = 0; i <TAM_TABULEIRO; i++){
             if(tabuleiro.posicoes[0][i]=='X'&&tabuleiro.posicoes[1][i]=='X'&&tabuleiro.posicoes[2][i]=='X'){
+
                 return 1;
             }
         }
@@ -51,11 +56,13 @@ int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro){
     }else{
         for ( i = 0; i <TAM_TABULEIRO; i++){
             if(tabuleiro.posicoes[i][0]=='0'&&tabuleiro.posicoes[i][1]=='0'&&tabuleiro.posicoes[i][2]=='0'){
+
                 return 1;
             }
         }
         for ( i = 0; i <TAM_TABULEIRO; i++){
             if(tabuleiro.posicoes[0][i]=='0'&&tabuleiro.posicoes[1][i]=='0'&&tabuleiro.posicoes[2][i]=='0'){
+
                 return 1;
             }
         }

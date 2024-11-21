@@ -1,0 +1,6 @@
+==4094== Memcheck, a memory error detector
+==4094== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4094== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4094== Command: Resultados/GleicianoNascimento/jogo/prog Resultados/GleicianoNascimento/jogo/Casos/3
+==4094== Parent PID: 4093
+==4094== 

@@ -3,7 +3,12 @@
 #include"tabuleiro.h"
 tJogada LeJogada(){
     tJogada rtn;
-    scanf("%d %d",&rtn.x,&rtn.y);
+    printf("Digite uma posicao (x e y):\n");
+    if(scanf("%d %d",&rtn.x,&rtn.y)==2){
+        rtn.sucesso=1;
+    }else{
+        rtn.sucesso=0;
+    }
     return rtn;
 }
 int ObtemJogadaX(tJogada jogada){
@@ -13,12 +18,6 @@ int ObtemJogadaY(tJogada jogada){
     return jogada.y;
 }
 int FoiJogadaBemSucedida(tJogada jogada){
-    int jogadaX=ObtemJogadaX(jogada),jogadaY=ObtemJogadaY(jogada);
-    if(jogadaX<3&&jogadaX>=0&&jogadaY<3&&jogadaY>=0){
-        jogada.sucesso=1;
-        return 1;
-    }
-    jogada.sucesso=0;
-    return 0;
+    return jogada.sucesso;
 }
 
