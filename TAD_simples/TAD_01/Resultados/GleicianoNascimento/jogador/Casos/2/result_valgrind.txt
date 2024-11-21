@@ -1,0 +1,43 @@
+==71162== Memcheck, a memory error detector
+==71162== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==71162== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==71162== Command: Resultados/GleicianoNascimento/jogador/prog Resultados/GleicianoNascimento/jogador/Casos/2
+==71162== Parent PID: 71161
+==71162== 
+==71162== Conditional jump or move depends on uninitialised value(s)
+==71162==    at 0x48F2AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==71162==    by 0x48DC79E: printf (printf.c:33)
+==71162==    by 0x1094CB: JogaJogador (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x1097DA: ComecaJogo (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x109A5A: main (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162== 
+==71162== Use of uninitialised value of size 8
+==71162==    at 0x48D62EB: _itoa_word (_itoa.c:177)
+==71162==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==71162==    by 0x48DC79E: printf (printf.c:33)
+==71162==    by 0x1094CB: JogaJogador (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x1097DA: ComecaJogo (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x109A5A: main (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162== 
+==71162== Conditional jump or move depends on uninitialised value(s)
+==71162==    at 0x48D62FC: _itoa_word (_itoa.c:177)
+==71162==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==71162==    by 0x48DC79E: printf (printf.c:33)
+==71162==    by 0x1094CB: JogaJogador (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x1097DA: ComecaJogo (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x109A5A: main (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162== 
+==71162== Conditional jump or move depends on uninitialised value(s)
+==71162==    at 0x48F25C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==71162==    by 0x48DC79E: printf (printf.c:33)
+==71162==    by 0x1094CB: JogaJogador (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x1097DA: ComecaJogo (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x109A5A: main (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162== 
+==71162== Conditional jump or move depends on uninitialised value(s)
+==71162==    at 0x48F1C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==71162==    by 0x48DC79E: printf (printf.c:33)
+==71162==    by 0x1094CB: JogaJogador (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x1097DA: ComecaJogo (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162==    by 0x109A5A: main (in /home/gnjesus/Downloads/Respostas_prog2/TAD_simples/TAD_01/Resultados/GleicianoNascimento/jogador/prog)
+==71162== 

@@ -56,6 +56,7 @@ int EhPosicaoValidaTabuleiro(int x, int y){
 void ImprimeTabuleiro(tTabuleiro tabuleiro){
     int i=0,j=0;
     for ( i = 0; i < TAM_TABULEIRO; i++){
+        printf("\t");
         for ( j = 0; j < TAM_TABULEIRO; j++){
             printf("%c",tabuleiro.posicoes[i][j]);
         }

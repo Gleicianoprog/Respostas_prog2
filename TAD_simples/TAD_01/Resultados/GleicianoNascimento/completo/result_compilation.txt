@@ -1,10 +1,3 @@
-jogo.c: In function ‘AcabouJogo’:
-jogo.c:12:13: warning: unused variable ‘j’ [-Wunused-variable]
-   12 |     int i=0,j=0;
-      |             ^
-jogo.c:12:9: warning: unused variable ‘i’ [-Wunused-variable]
-   12 |     int i=0,j=0;
-      |         ^
 tabuleiro.c: In function ‘CriaTabuleiro’:
 tabuleiro.c:9:5: warning: statement with no effect [-Wunused-value]
     9 |     for(i;i<TAM_TABULEIRO;i++){

@@ -15,8 +15,10 @@ int ObtemJogadaY(tJogada jogada){
 int FoiJogadaBemSucedida(tJogada jogada){
     int jogadaX=ObtemJogadaX(jogada),jogadaY=ObtemJogadaY(jogada);
     if(jogadaX<3&&jogadaX>=0&&jogadaY<3&&jogadaY>=0){
+        jogada.sucesso=1;
         return 1;
     }
+    jogada.sucesso=0;
     return 0;
 }
 

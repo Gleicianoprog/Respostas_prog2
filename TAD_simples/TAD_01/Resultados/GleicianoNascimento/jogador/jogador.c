@@ -9,16 +9,23 @@ tJogador CriaJogador(int idJogador){
 }
 tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
     tJogada jogadaAtual;
-    jogadaAtual=LeJogada();
-    if(FoiJogadaBemSucedida(jogadaAtual)){
-        if(EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual))){
-            printf("Jogada [%d,%d]!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
-            tabuleiro=MarcaPosicaoTabuleiro(tabuleiro, jogador.id,ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+    while(1){
+        jogadaAtual=LeJogada();
+        if(FoiJogadaBemSucedida(jogadaAtual)){
+            if(EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual))){
+                printf("Jogada [%d,%d]!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+                tabuleiro=MarcaPosicaoTabuleiro(tabuleiro, jogador.id,ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+                break;
+            }else{
+                printf("Posicao invalida (OCUPADA - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+                printf("Jogador %d\nDigite uma posicao (x e y):\n",jogador.id);
+                continue;
+            }
         }else{
-            printf("Posicao invalida (OCUPADA - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+            printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
+            printf("Jogador %d\nDigite uma posicao (x e y):\n",jogador.id);
+            continue;
         }
-    }else{
-        printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n",ObtemJogadaX(jogadaAtual),ObtemJogadaY(jogadaAtual));
     }
     return tabuleiro;
 }

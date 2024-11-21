@@ -9,7 +9,6 @@ tJogo CriaJogo(){
     return rtn;
 }
 int AcabouJogo(tJogo jogo){
-    int i=0,j=0;
     if(!TemPosicaoLivreTabuleiro(jogo.tabuleiro)){
         return 1;
     }
@@ -35,5 +34,19 @@ void ComecaJogo(tJogo jogo){
             }
             jogador=1;
         }
+    }
+    if(AcabouJogo(jogo)&&!VenceuJogador(jogo.jogador1,jogo.tabuleiro)&&!VenceuJogador(jogo.jogador2, jogo.tabuleiro)){
+        printf("Sem vencedor!\n");
+    }
+}
+int ContinuaJogo(){
+    char choice='s';
+    scanf("%c",&choice);    
+    if(choice=='s'){
+        return 1;
+    }else if(choice=='n'){
+        return 0;
+    }else{
+        return -1;
     }
 }
