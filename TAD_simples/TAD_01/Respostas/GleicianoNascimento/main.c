@@ -10,13 +10,11 @@ int main(){
     ComecaJogo(jogo);
     while (1){
         continua=ContinuaJogo();
-        if(continua==1){
-            jogo=CriaJogo();
-            ComecaJogo(jogo);
-            scanf("%*c");
-        }else{
+        if(!continua){
             break;
         }
+        jogo=CriaJogo();
+        ComecaJogo(jogo);
     }
     return 0;
 }

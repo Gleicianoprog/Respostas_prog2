@@ -4,8 +4,8 @@
 tJogo CriaJogo(){
     tJogo rtn;
     rtn.tabuleiro= CriaTabuleiro();
-    rtn.jogador1=CriaJogador(1);
-    rtn.jogador2=CriaJogador(2);
+    rtn.jogador1=CriaJogador(ID_JOGADOR_1);
+    rtn.jogador2=CriaJogador(ID_JOGADOR_2);
     return rtn;
 }
 int AcabouJogo(tJogo jogo){
