@@ -76,7 +76,7 @@ tEleicao RealizaEleicao(tEleicao eleicao){
 }
 void ImprimeResultadoEleicao(tEleicao eleicao){
     int i=0,anula=0,j=0,nulos=0,brancos=0,empate=0;
-    float percentil;
+    float percentual;
     tCandidato vencedorP=CriaCandidato("a", "a", 'P', -1),vencedorG=CriaCandidato("a", "a", 'G', -1);
     if(eleicao.totalEleitores>MAX_ELEITORES||eleicao.totalPresidentes>MAX_CANDIDATOS_POR_CARGO||eleicao.totalGovernadores>MAX_CANDIDATOS_POR_CARGO){
         printf("ELEICAO ANULADA\n");
@@ -105,18 +105,18 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
                     empate=1;
                 }
             }
-            percentil=CalculaPercentualVotos(vencedorP, eleicao.totalEleitores);
+            percentual=CalculaPercentualVotos(vencedorP, eleicao.totalEleitores);
             if(!empate){
                 if(eleicao.votosBrancosPresidente+eleicao.votosNulosPresidente>ObtemVotos(vencedorP)){
                     printf("SEM DECISAO\n");
                 }else{
-                    ImprimeCandidato (vencedorP, percentil);
+                    ImprimeCandidato (vencedorP, percentual);
                 }
             }else{
                 printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO\n");
             }
             empate=0;
-            percentil=CalculaPercentualVotos(vencedorG, eleicao.totalEleitores);
+            percentual=CalculaPercentualVotos(vencedorG, eleicao.totalEleitores);
             printf("- GOVERNADOR ELEITO: ");
             for ( i = 0; i < eleicao.totalGovernadores; i++){
                 if(ObtemVotos(vencedorG)==ObtemVotos(eleicao.governadores[i])&&!EhMesmoCandidato(vencedorG,eleicao.governadores[i])){
@@ -127,7 +127,7 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
                 if(eleicao.votosBrancosGovernador+eleicao.votosNulosGovernador>ObtemVotos(vencedorG)){
                     printf("SEM DECISAO\n");
                 }else{
-                    ImprimeCandidato (vencedorG, percentil);
+                    ImprimeCandidato (vencedorG, percentual);
                 }
             }else{
                 printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO\n");
