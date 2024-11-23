@@ -108,14 +108,12 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
             percentil=CalculaPercentualVotos(vencedorP, eleicao.totalEleitores);
             if(!empate){
                 if(eleicao.votosBrancosPresidente+eleicao.votosNulosPresidente>ObtemVotos(vencedorP)){
-                    printf("SEM DECISAO");
-                    printf("\n");
+                    printf("SEM DECISAO\n");
                 }else{
                     ImprimeCandidato (vencedorP, percentil);
                 }
             }else{
-                printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO");
-                printf("\n");
+                printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO\n");
             }
             empate=0;
             percentil=CalculaPercentualVotos(vencedorG, eleicao.totalEleitores);
@@ -127,14 +125,12 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
             }
             if(!empate){
                 if(eleicao.votosBrancosGovernador+eleicao.votosNulosGovernador>ObtemVotos(vencedorG)){
-                    printf("SEM DECISAO");
-                    printf("\n");
+                    printf("SEM DECISAO\n");
                 }else{
                     ImprimeCandidato (vencedorG, percentil);
                 }
             }else{
-                printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO");
-                printf("\n");
+                printf("EMPATE. SERA NECESSARIO UMA NOVA VOTACAO\n");
             }
             nulos=eleicao.votosNulosPresidente+eleicao.votosNulosGovernador;
             brancos=eleicao.votosBrancosPresidente+eleicao.votosBrancosGovernador;

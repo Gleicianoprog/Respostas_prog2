@@ -1,6 +1,5 @@
 #include"jogador.h"
 #include"tabuleiro.h"
-#include"jogo.h"
 #include<stdio.h>
 #include"jogada.h"
 tJogador CriaJogador(int idJogador){
