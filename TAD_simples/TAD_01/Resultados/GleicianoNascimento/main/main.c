@@ -8,15 +8,12 @@ int main(){
     tJogo jogo;
     jogo=CriaJogo();
     ComecaJogo(jogo);
-    scanf("%*c");
     while (1){
         continua=ContinuaJogo();
         if(continua==1){
             jogo=CriaJogo();
             ComecaJogo(jogo);
             scanf("%*c");
-        }else if(continua==-1){
-            continue;
         }else{
             break;
         }

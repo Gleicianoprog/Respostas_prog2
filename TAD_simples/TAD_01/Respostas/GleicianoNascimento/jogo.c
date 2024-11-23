@@ -43,12 +43,15 @@ void ComecaJogo(tJogo jogo){
 }
 int ContinuaJogo(){
     char choice='s';
-    scanf("%c",&choice);    
+    while(1){
+        scanf("%c",&choice);
+        if(choice=='s'||choice=='n'){
+            break;
+        }
+    }
     if(choice=='s'){
         return 1;
     }else if(choice=='n'){
         return 0;
-    }else{
-        return -1;
     }
 }

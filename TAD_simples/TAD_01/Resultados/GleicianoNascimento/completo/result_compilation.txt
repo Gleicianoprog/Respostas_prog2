@@ -1,3 +1,7 @@
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+   57 | }
+      | ^
 tabuleiro.c: In function ‘CriaTabuleiro’:
 tabuleiro.c:9:5: warning: statement with no effect [-Wunused-value]
     9 |     for(i;i<TAM_TABULEIRO;i++){

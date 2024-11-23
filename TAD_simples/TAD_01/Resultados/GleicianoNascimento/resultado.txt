@@ -22,8 +22,8 @@ Teste tabuleiro
   - Valgrinds corretos: 6 de 6
 Nota de GleicianoNascimento para o teste tabuleiro: 1.67
 Teste jogo
-  - Resultados corretos: 0 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de GleicianoNascimento para o teste jogo: 0
-Nota de GleicianoNascimento: 0+(0)+(1.67)+(1.67)+(1.67)+(1.66)+(1.66)
-Nota de GleicianoNascimento: 8.33
+Nota de GleicianoNascimento para o teste jogo: 1.67
+Nota de GleicianoNascimento: 0+(1.67)+(1.67)+(1.67)+(1.67)+(1.66)+(1.66)
+Nota de GleicianoNascimento: 10.00
