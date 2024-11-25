@@ -1,0 +1,12 @@
+Filme cadastrado 21 - The Last Castle
+Filme cadastrado 22 - Black Knight
+Filme cadastrado 23 - Legally Blonde
+Filme cadastrado 24 - The Glass House
+Filme cadastrado 25 - Tomb Raider
+
+~ESTOQUE~
+22 - Black Knight Fitas em estoque: 3
+23 - Legally Blonde Fitas em estoque: 3
+24 - The Glass House Fitas em estoque: 1
+21 - The Last Castle Fitas em estoque: 5
+25 - Tomb Raider Fitas em estoque: 2
