@@ -10,11 +10,9 @@ Filme cadastrado 25 - Tomb Raider
 24 - The Glass House Fitas em estoque: 1
 21 - The Last Castle Fitas em estoque: 5
 25 - Tomb Raider Fitas em estoque: 2
-
 Total de filmes alugados: 3 com custo de R$22
 
-filme nao encontrado
-Total de filmes alugados: 0 com custo de R$0
+Filme 26 nao cadastrado.
 
 Total de filmes alugados: 3 com custo de R$17
 
@@ -26,7 +24,6 @@ Total de filmes alugados: 3 com custo de R$21
 24 - The Glass House Fitas em estoque: -1
 21 - The Last Castle Fitas em estoque: 4
 25 - Tomb Raider Fitas em estoque: 0
-
 Filme cadastrado 26 - Vanilla Sky
 Filme cadastrado 27 - Atlantis
 Filme cadastrado 28 - Spy Kids
@@ -44,7 +41,6 @@ Filme cadastrado 30 - Jimmy Neutron
 21 - The Last Castle Fitas em estoque: 4
 25 - Tomb Raider Fitas em estoque: 0
 26 - Vanilla Sky Fitas em estoque: 5
-
 Total de filmes alugados: 1 com custo de R$10
 
 Filme 24 - The Glass House Devolvido!
@@ -82,5 +78,4 @@ Filme 29 - Enemy Gates Devolvido!
 24 - The Glass House Fitas em estoque: 1
 21 - The Last Castle Fitas em estoque: 5
 25 - Tomb Raider Fitas em estoque: 2
-26 - Vanilla Sky Fitas em estoque: 4
-Lucro total R$150
+26 - Vanilla Sky Fitas em estoque: 4Lucro total R$150

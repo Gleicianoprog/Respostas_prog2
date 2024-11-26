@@ -6,16 +6,16 @@ Teste main
   - Valgrinds corretos: 19 de 19
 Nota de GleicianoNascimento para o teste main: 2.50
 Teste completo
-  - Resultados corretos: 7 de 19
+  - Resultados corretos: 9 de 19
   - Valgrinds corretos: 19 de 19
-Nota de GleicianoNascimento para o teste completo: .90
+Nota de GleicianoNascimento para o teste completo: 1.17
 Teste locadora
-  - Resultados corretos: 7 de 19
+  - Resultados corretos: 4 de 19
   - Valgrinds corretos: 19 de 19
-Nota de GleicianoNascimento para o teste locadora: .90
+Nota de GleicianoNascimento para o teste locadora: .52
 Teste filme
   - Resultados corretos: 17 de 19
   - Valgrinds corretos: 8 de 19
 Nota de GleicianoNascimento para o teste filme: 1.62
-Nota de GleicianoNascimento: 0+(.90)+(2.50)+(.90)+(1.62)
-Nota de GleicianoNascimento: 5.92
+Nota de GleicianoNascimento: 0+(.52)+(2.50)+(1.17)+(1.62)
+Nota de GleicianoNascimento: 5.81

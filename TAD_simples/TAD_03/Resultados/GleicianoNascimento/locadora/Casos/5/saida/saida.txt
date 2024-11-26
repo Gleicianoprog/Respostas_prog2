@@ -5,5 +5,4 @@ Total de filmes alugados: 2 com custo de R$9
 
 ~ESTOQUE~
 1 - Final Fantasy Fitas em estoque: 0
-2 - Shrek Fitas em estoque: 0
-Lucro total R$9
+2 - Shrek Fitas em estoque: 0Lucro total R$9

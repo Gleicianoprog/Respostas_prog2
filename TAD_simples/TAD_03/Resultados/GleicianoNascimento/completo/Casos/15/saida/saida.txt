@@ -7,7 +7,7 @@ Filme cadastrado 1 - A Viagem
 Filme 1 - Matrix Devolvido!
 Filme 1 - A Viagem Devolvido!
 
-filme nao encontrado
+Filme 5 nao cadastrado.
 Total de filmes alugados: 2 com custo de R$11
 
 Total de filmes alugados: 1 com custo de R$4
@@ -20,5 +20,4 @@ Filme 2 - Shrek Devolvido!
 1 - A Viagem Fitas em estoque: 1
 1 - Matrix Fitas em estoque: 3
 2 - Shrek Fitas em estoque: 0
-
 Lucro total R$15

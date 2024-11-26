@@ -8,7 +8,6 @@ Filme cadastrado 2 - Jurassic Parc
 2 - Jurassic Parc Fitas em estoque: 4
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 6
-
 Total de filmes alugados: 3 com custo de R$30
 
 ~ESTOQUE~
@@ -16,7 +15,6 @@ Total de filmes alugados: 3 com custo de R$30
 2 - Jurassic Parc Fitas em estoque: 3
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 5
-
 Filme 1 - Hannibal Devolvido!
 Filme 1 - Hannibal Devolvido!
 
@@ -25,12 +23,10 @@ Filme 1 - Hannibal Devolvido!
 2 - Jurassic Parc Fitas em estoque: 3
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 5
-
 Filme 2 - Jurassic Parc Devolvido!
 Filme 2 - Tomb Raider Devolvido!
 
-filme nao encontrado
-Total de filmes alugados: 0 com custo de R$0
+Filme 15 nao cadastrado.
 
 Filme cadastrado 15 - Shrek
 
@@ -44,7 +40,6 @@ filme nao encontrado
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 6
-
 Total de filmes alugados: 2 com custo de R$24
 
 Total de filmes alugados: 2 com custo de R$20
@@ -55,7 +50,6 @@ Total de filmes alugados: 2 com custo de R$20
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 4
-
 Filme 2 - Jurassic Parc Devolvido!
 Filme 2 - Tomb Raider Devolvido!
 
@@ -68,5 +62,4 @@ Filme 2 - Tomb Raider Devolvido!
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 6
-
 Lucro total R$78
