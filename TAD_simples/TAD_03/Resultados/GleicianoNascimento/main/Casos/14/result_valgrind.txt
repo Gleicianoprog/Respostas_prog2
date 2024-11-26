@@ -1,27 +1,15 @@
-==12110== Memcheck, a memory error detector
-==12110== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==12110== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==12110== Command: Resultados/GleicianoNascimento/main/prog Resultados/GleicianoNascimento/main/Casos/14
-==12110== Parent PID: 12109
-==12110== 
-==12110== Conditional jump or move depends on uninitialised value(s)
-==12110==    at 0x109593: verificarFilmeCadastrado (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110==    by 0x109626: cadastrarFilmeLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110==    by 0x10988D: lerCadastroLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110==    by 0x10A889: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110== 
-==12110== Use of uninitialised value of size 8
-==12110==    at 0x1096C5: cadastrarFilmeLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110==    by 0x10988D: lerCadastroLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110==    by 0x10A889: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/main/prog)
-==12110== 
-==12110== 
-==12110== HEAP SUMMARY:
-==12110==     in use at exit: 0 bytes in 0 blocks
-==12110==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==12110== 
-==12110== All heap blocks were freed -- no leaks are possible
-==12110== 
-==12110== Use --track-origins=yes to see where uninitialised values come from
-==12110== For lists of detected and suppressed errors, rerun with: -s
-==12110== ERROR SUMMARY: 5 errors from 2 contexts (suppressed: 0 from 0)
+==57375== Memcheck, a memory error detector
+==57375== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==57375== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==57375== Command: Resultados/GleicianoNascimento/main/prog Resultados/GleicianoNascimento/main/Casos/14
+==57375== Parent PID: 57374
+==57375== 
+==57375== 
+==57375== HEAP SUMMARY:
+==57375==     in use at exit: 0 bytes in 0 blocks
+==57375==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==57375== 
+==57375== All heap blocks were freed -- no leaks are possible
+==57375== 
+==57375== For lists of detected and suppressed errors, rerun with: -s
+==57375== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
