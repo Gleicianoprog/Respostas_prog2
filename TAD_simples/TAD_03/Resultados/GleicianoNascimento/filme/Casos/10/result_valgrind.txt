@@ -1,21 +1,15 @@
-==82404== Memcheck, a memory error detector
-==82404== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==82404== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==82404== Command: Resultados/GleicianoNascimento/filme/prog Resultados/GleicianoNascimento/filme/Casos/10
-==82404== Parent PID: 82403
-==82404== 
-==82404== Conditional jump or move depends on uninitialised value(s)
-==82404==    at 0x109FA1: devolverFilmesLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/filme/prog)
-==82404==    by 0x10A3BC: lerDevolucaoLocadora (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/filme/prog)
-==82404==    by 0x10A9F7: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_simples/TAD_03/Resultados/GleicianoNascimento/filme/prog)
-==82404== 
-==82404== 
-==82404== HEAP SUMMARY:
-==82404==     in use at exit: 0 bytes in 0 blocks
-==82404==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==82404== 
-==82404== All heap blocks were freed -- no leaks are possible
-==82404== 
-==82404== Use --track-origins=yes to see where uninitialised values come from
-==82404== For lists of detected and suppressed errors, rerun with: -s
-==82404== ERROR SUMMARY: 2 errors from 1 contexts (suppressed: 0 from 0)
+==55862== Memcheck, a memory error detector
+==55862== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==55862== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==55862== Command: Resultados/GleicianoNascimento/filme/prog Resultados/GleicianoNascimento/filme/Casos/10
+==55862== Parent PID: 55861
+==55862== 
+==55862== 
+==55862== HEAP SUMMARY:
+==55862==     in use at exit: 0 bytes in 0 blocks
+==55862==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==55862== 
+==55862== All heap blocks were freed -- no leaks are possible
+==55862== 
+==55862== For lists of detected and suppressed errors, rerun with: -s
+==55862== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

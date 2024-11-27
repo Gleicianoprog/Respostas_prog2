@@ -50,5 +50,6 @@ tFilme leFilme(int codigo){
     tFilme rtn;
     rtn.codigo=codigo;
     scanf("%[^,],%d,%d\n",rtn.nome,&rtn.valor,&rtn.qtdEstoque);
+    rtn.qtdAlugada=0;
     return rtn;
 }

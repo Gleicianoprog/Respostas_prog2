@@ -1,29 +1,28 @@
 Filme cadastrado 1 - Hannibal
 Filme cadastrado 2 - Tomb Raider
 Filme cadastrado 3 - Sword Fish
-Filme cadastrado 2 - Jurassic Parc
+Filme ja cadastrado no estoque
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 1
-2 - Jurassic Parc Fitas em estoque: 4
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 6
-Total de filmes alugados: 3 com custo de R$30
+
+Total de filmes alugados: 3 com custo de R$23
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 0
-2 - Jurassic Parc Fitas em estoque: 3
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 5
+
 Filme 1 - Hannibal Devolvido!
-Filme 1 - Hannibal Devolvido!
+Nao e possivel devolver o filme 1 - Hannibal.
 
 ~ESTOQUE~
-1 - Hannibal Fitas em estoque: 2
-2 - Jurassic Parc Fitas em estoque: 3
+1 - Hannibal Fitas em estoque: 1
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 5
-Filme 2 - Jurassic Parc Devolvido!
+
 Filme 2 - Tomb Raider Devolvido!
 
 Filme 15 nao cadastrado.
@@ -32,33 +31,32 @@ Filme cadastrado 15 - Shrek
 
 Total de filmes alugados: 1 com custo de R$4
 
-filme nao encontrado
+Filme 5 nao cadastrado.
 
 ~ESTOQUE~
-1 - Hannibal Fitas em estoque: 2
-2 - Jurassic Parc Fitas em estoque: 4
+1 - Hannibal Fitas em estoque: 1
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 6
-Total de filmes alugados: 2 com custo de R$24
 
-Total de filmes alugados: 2 com custo de R$20
+Total de filmes alugados: 2 com custo de R$10
+
+Filme 1 - Hannibal nao disponivel no estoque. Volte mais tarde.
+Total de filmes alugados: 1 com custo de R$10
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 0
-2 - Jurassic Parc Fitas em estoque: 2
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 4
-Filme 2 - Jurassic Parc Devolvido!
+
 Filme 2 - Tomb Raider Devolvido!
 
-Filme 2 - Jurassic Parc Devolvido!
 Filme 2 - Tomb Raider Devolvido!
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 0
-2 - Jurassic Parc Fitas em estoque: 4
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
-2 - Tomb Raider Fitas em estoque: 6Lucro total R$78
+2 - Tomb Raider Fitas em estoque: 6
+Lucro total R$25

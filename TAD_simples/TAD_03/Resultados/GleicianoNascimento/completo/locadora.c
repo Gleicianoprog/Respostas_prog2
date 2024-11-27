@@ -18,7 +18,10 @@ int verificarFilmeCadastrado (tLocadora locadora, int codigo){
 }
 tLocadora cadastrarFilmeLocadora (tLocadora locadora, tFilme filme){
     if(!verificarFilmeCadastrado(locadora,obterCodigoFilme(filme))){
+        printf("Filme cadastrado %d - ",obterCodigoFilme(filme));
         locadora.filme[locadora.numFilmes]=filme;
+        imprimirNomeFilme(locadora.filme[locadora.numFilmes]);
+        printf("\n");
         locadora.numFilmes++;
     }else{
         printf("Filme ja cadastrado no estoque\n");
@@ -51,38 +54,37 @@ void consultarEstoqueLocadora (tLocadora locadora){
     for ( i = 0; i < locadora.numFilmes; i++){
         printf("%d - ",obterCodigoFilme(locadora.filme[i]));
         imprimirNomeFilme(locadora.filme[i]);
-        printf(" Fitas em estoque: %d",obterQtdEstoqueFilme(locadora.filme[i]));
-        if(i<locadora.numFilmes-1){
-            printf("\n");
-        }
+        printf(" Fitas em estoque: %d\n",obterQtdEstoqueFilme(locadora.filme[i]));
     }
 }
 tLocadora lerCadastroLocadora (tLocadora locadora){
     int i=0,codigo=0;
     while (scanf("%d,",&codigo)){
-        locadora.filme[locadora.numFilmes]=leFilme(codigo);
-        printf("Filme cadastrado %d - ",obterCodigoFilme(locadora.filme[locadora.numFilmes]));
-        imprimirNomeFilme(locadora.filme[locadora.numFilmes]);
-        printf("\n");
-        locadora.numFilmes++;
-        i++;
+        locadora=cadastrarFilmeLocadora(locadora,leFilme(codigo));
     }
     scanf("%*c");
     return locadora;
 }
 tLocadora alugarFilmesLocadora (tLocadora locadora, int* codigos, int quantidadeCodigos){
-    int i=0,j=0,total=0;
+    int i=0,j=0,total=0,qtdAlugados=quantidadeCodigos;
     for ( i = 0; i < quantidadeCodigos; i++){
         for ( j = 0; j < locadora.numFilmes ; j++){
             if(ehMesmoCodigoFilme (locadora.filme[j],codigos[i])){
-                locadora.filme[j]=alugarFilme(locadora.filme[j]);
-                locadora.lucro+=obterValorFilme(locadora.filme[j]);
-                total+=obterValorFilme(locadora.filme[j]);
+                if(!obterQtdEstoqueFilme(locadora.filme[j])){
+                    printf("Filme %d - ",obterCodigoFilme(locadora.filme[j]));
+                    imprimirNomeFilme(locadora.filme[j]);
+                    printf(" nao disponivel no estoque. Volte mais tarde.\n");
+                    qtdAlugados--;
+                }else{
+                    locadora.filme[j]=alugarFilme(locadora.filme[j]);
+                    // locadora.lucro+=obterValorFilme(locadora.filme[j]);
+                    total+=obterValorFilme(locadora.filme[j]);
+                }
             }
         }
     }
-    if(quantidadeCodigos){
-        printf("Total de filmes alugados: %d com custo de R$%d\n",quantidadeCodigos,total);
+    if(qtdAlugados){
+        printf("Total de filmes alugados: %d com custo de R$%d\n",qtdAlugados,total);
     }
     return locadora;
 }
@@ -106,10 +108,17 @@ tLocadora devolverFilmesLocadora (tLocadora locadora, int* codigos, int quantida
     for ( i = 0; i < quantidadeCodigos; i++){
         for ( j = 0; j < locadora.numFilmes ; j++){
             if(ehMesmoCodigoFilme (locadora.filme[j],codigos[i])){
-                locadora.filme[j]=devolverFilme(locadora.filme[j]);
-                printf("Filme %d - ",obterCodigoFilme(locadora.filme[j]));
-                imprimirNomeFilme(locadora.filme[j]);
-                printf(" Devolvido!\n");
+                if(obterQtdAlugadaFilme(locadora.filme[j])){
+                    locadora.filme[j]=devolverFilme(locadora.filme[j]);
+                    printf("Filme %d - ",obterCodigoFilme(locadora.filme[j]));
+                    imprimirNomeFilme(locadora.filme[j]);
+                    printf(" Devolvido!\n");
+                    locadora.lucro+=obterValorFilme(locadora.filme[j]);
+                }else{
+                    printf("Nao e possivel devolver o filme %d - ",obterCodigoFilme(locadora.filme[j]));
+                    imprimirNomeFilme(locadora.filme[j]);
+                    printf(".\n");
+                }
             }
         }
     }
@@ -122,7 +131,7 @@ tLocadora lerDevolucaoLocadora (tLocadora locadora){
             codigos[qtdCodigos]=codigo;
             qtdCodigos++;
         }else{
-            printf("filme nao encontrado\n");
+            printf("Filme %d nao cadastrado.\n",codigo);
         }
     }
     scanf("%*c");

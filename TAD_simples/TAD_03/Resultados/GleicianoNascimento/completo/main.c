@@ -4,6 +4,7 @@
 #include<string.h>
 int main(){
     char op[30];
+    int primeiro=1;
     tLocadora locadora;
     // locadora=lerCadastroLocadora(locadora);
     locadora=criarLocadora ();
