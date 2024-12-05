@@ -1,0 +1,4 @@
+departamento.c: In function ‘calculaDesvioPadraoDepartamento’:
+departamento.c:35:9: warning: unused variable ‘i’ [-Wunused-variable]
+   35 |     int i=0;
+      |         ^
