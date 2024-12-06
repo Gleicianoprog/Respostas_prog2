@@ -12,8 +12,8 @@ int main(){
     c=inicializaClinica();
     while(1){
         scanf("%c",&op);
+        //scanf("%*c");
         if(op=='P'){
-            scanf("%*c");
             p=lePaciente();
             c=adicionaPacienteClinica(c,p);
         }else if(op=='L'){

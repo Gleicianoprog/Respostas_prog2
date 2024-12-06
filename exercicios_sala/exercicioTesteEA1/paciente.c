@@ -3,6 +3,7 @@
 #include<stdio.h>
 tPaciente lePaciente(){
     tPaciente rtn;
+    scanf("%*[\n]");
     scanf("%[^\n]",rtn.nome);
     scanf("%*[\n]");
     rtn.data=ledata();
