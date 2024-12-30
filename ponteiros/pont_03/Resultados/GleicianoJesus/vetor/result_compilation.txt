@@ -1,0 +1,4 @@
+vetor.c: In function ‘TrocaSeAcharMenor’:
+vetor.c:18:5: warning: statement with no effect [-Wunused-value]
+   18 |     for (paraTrocar ; ((paraTrocar+i) < (vet+tam)); i++){
+      |     ^~~

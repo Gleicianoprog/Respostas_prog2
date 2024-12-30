@@ -1,0 +1,8 @@
+utils.c: In function ‘EhPrimo’:
+utils.c:8:5: warning: statement with no effect [-Wunused-value]
+    8 |     for ( divisor ; divisor <= n; divisor++){
+      |     ^~~
+utils.c: In function ‘ObtemMaiorEMenorPrimo’:
+utils.c:23:5: warning: statement with no effect [-Wunused-value]
+   23 |     for ( m ; m <= n; m++){
+      |     ^~~
