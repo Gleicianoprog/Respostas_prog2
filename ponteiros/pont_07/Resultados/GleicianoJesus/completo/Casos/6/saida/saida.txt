@@ -15,13 +15,8 @@ Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
 Limite de eventos atingido!
-Limite de eventos atingido!
-Limite de eventos atingido!
-Limite de eventos atingido!
-Opcao invalida!
-Opcao invalida!
-Indices invalidos!
 Eventos cadastrados:
 0 - atv1 - 12/10/2021
 1 - atv2 - 15/10/2021
@@ -32,5 +27,6 @@ Eventos cadastrados:
 6 - atv7 - 30/10/2021
 7 - atv8 - 3/11/2021
 8 - atv9 - 6/11/2021
+9 - atv10 - 15/4/2022
 Opcao invalida!
 Saindo...

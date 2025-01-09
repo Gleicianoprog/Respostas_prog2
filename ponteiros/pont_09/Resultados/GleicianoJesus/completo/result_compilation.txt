@@ -1,0 +1,4 @@
+pessoa.c: In function ‘AssociaFamiliasGruposPessoas’:
+pessoa.c:42:19: warning: unused variable ‘p’ [-Wunused-variable]
+   42 |     tPessoa *pMae,p,*pPai;
+      |                   ^

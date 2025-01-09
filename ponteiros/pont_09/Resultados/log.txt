@@ -1,0 +1,220 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: GleicianoJesus
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GleicianoJesus:
+ - Diretório Resultados/GleicianoJesus criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/main criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/completo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/pessoa criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GleicianoJesus/main.c' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/pessoa.c' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/pessoa.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/main
+ - Copiando os Includes/*.h do professor para a pasta Resultados/GleicianoJesus/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/GleicianoJesus/main
+ - Removendo o main.o do professor da pasta Resultados/GleicianoJesus/main
+ - Copiando o Respostas/GleicianoJesus/main.c do aluno para a pasta Resultados/GleicianoJesus/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/main.c do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/pessoa.c do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/pessoa.h do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Pasta pessoa:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/pessoa
+ - Copiando os Includes/*.h do professor para a pasta Resultados/GleicianoJesus/pessoa
+ - Copiando os Includes/*.o do professor para a pasta Resultados/GleicianoJesus/pessoa
+ - Removendo o pessoa.o do professor da pasta Resultados/GleicianoJesus/pessoa
+ - Copiando o Respostas/GleicianoJesus/pessoa.c do aluno para a pasta Resultados/GleicianoJesus/pessoa
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pessoa ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/pessoa/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/result_linking.txt
+ - Pasta pessoa:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pessoa/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/pessoa/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 3.33) - 20.00 de 20 - 100.00% de 3.33: 3.33.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 3.34) - 20.00 de 20 - 100.00% de 3.34: 3.34.
+ -----
+ - Pasta pessoa / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/pessoa/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 32 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pessoa / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/pessoa/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 32 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta pessoa (máximo 3.33) - 0 de 20 - 0% de 3.33: 0.
+ -----
+
+#######################################
+ALUNO: GleicianoJesus/.vscode
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GleicianoJesus/.vscode:
+ - Diretório Resultados/GleicianoJesus/.vscode criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/main criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/completo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/pessoa criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/pessoa.c' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/pessoa.h' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/completo
+ - Pasta pessoa:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/pessoa
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Erro de compilação! Verifique os arquivos da pasta pessoa.
+ - Arquivos Compilados: Erro!: 3 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/completo/result_linking.txt
+ - Pasta pessoa:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pessoa/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/pessoa/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 3.33) - 0 de 10 - 0% de 3.33: 0.
+ -----
+ - Pasta completo / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 3.34) - 0 de 10 - 0% de 3.34: 0.
+ -----
+ - Pasta pessoa / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta pessoa (máximo 3.33) - 0 de 10 - 0% de 3.33: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: GleicianoJesus
+ - Arquivos Esperados Corretos: 3 de 3
+ - Pastas Compiladas Corretamente: 3 de 3 
+ - Pastas Linkadas Corretamente: 3 de 3
+ - Teste main
+ - Resultados corretos: 2 de 2
+ - Valgrinds corretos: 2 de 2
+ - Nota de GleicianoJesus para o teste main: 3.33
+ - Teste completo
+ - Resultados corretos: 2 de 2
+ - Valgrinds corretos: 2 de 2
+ - Nota de GleicianoJesus para o teste completo: 3.34
+ - Teste pessoa
+ - Resultados corretos: 0 de 2
+ - Valgrinds corretos: 0 de 2
+ - Nota de GleicianoJesus para o teste pessoa: 0
+ - Nota de GleicianoJesus: 0+(3.33)+(3.34)+(0)
+ - Nota de GleicianoJesus: 6.67
+
+----------------------------------------------------------------------------
+Aluno: GleicianoJesus/.vscode
+ - Arquivos Esperados Corretos: 0 de 3
+ - Pastas Compiladas Corretamente: 0 de 3 
+ - Pastas Linkadas Corretamente: 0 de 3
+ - Teste main
+ - Resultados corretos: 0 de 2
+ - Valgrinds corretos: 0 de 2
+ - Nota de GleicianoJesus/.vscode para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 2
+ - Valgrinds corretos: 0 de 2
+ - Nota de GleicianoJesus/.vscode para o teste completo: 0
+ - Teste pessoa
+ - Resultados corretos: 0 de 2
+ - Valgrinds corretos: 0 de 2
+ - Nota de GleicianoJesus/.vscode para o teste pessoa: 0
+ - Nota de GleicianoJesus/.vscode: 0+(0)+(0)+(0)
+ - Nota de GleicianoJesus/.vscode: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

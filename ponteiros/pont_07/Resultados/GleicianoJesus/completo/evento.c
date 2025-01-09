@@ -1,18 +1,20 @@
 #include <stdio.h> 
 #include "evento.h"
-void cadastrarEvento(Evento* eventos, int* numEventos){
-    Evento evento;
-    scanf("%*c");
-    if(*numEventos<MAX_EVENTOS-1){
-        scanf("%[^\n]",evento.nome);
-        scanf("%*[\n]");
-        scanf("%d %d %d",&evento.dia,&evento.mes,&evento.ano);
-        eventos[*numEventos]=evento;
-        *numEventos=(*numEventos)+1;
-        printf("Evento cadastrado com sucesso!\n");
-    }else{
+void cadastrarEvento(Evento* eventos, int* numEventos) {
+    if (*numEventos >= MAX_EVENTOS) {
         printf("Limite de eventos atingido!\n");
+        return;
     }
+
+    Evento evento;
+
+    scanf("\n%[^\n]%*c", evento.nome);
+    scanf("%d %d %d%*c", &evento.dia, &evento.mes, &evento.ano);
+
+    eventos[*numEventos] = evento;
+    (*numEventos)++;
+
+    printf("Evento cadastrado com sucesso!\n");
 }
 void exibirEventos(Evento* eventos, int* numEventos){
     if(*numEventos==0){
