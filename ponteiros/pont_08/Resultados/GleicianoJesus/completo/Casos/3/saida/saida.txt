@@ -1,6 +1,5 @@
 
 Digite um departamento com médias válidas
-
 Departamento: Informatica
 	Diretor: Patricia
 	1o curso: CC

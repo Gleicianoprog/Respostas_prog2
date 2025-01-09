@@ -4,14 +4,14 @@ int LeDpt(int i,tDepartamento *dptos);
 int main(){
     int qtd;
     scanf("%d\n",&qtd);
-    printf("\n");
     tDepartamento dptos[qtd];
     for ( int i = 0; i < qtd; i++){
         if(LeDpt(i,dptos)){
             continue;
         }else{
             i--;
-            printf("Digite um departamento com médias válidas\n");
+            printf("\n");
+            printf("Digite um departamento com médias válidas");
             continue;
         }
     }
