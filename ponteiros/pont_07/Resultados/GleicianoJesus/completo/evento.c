@@ -3,10 +3,10 @@
 void cadastrarEvento(Evento* eventos, int* numEventos){
     Evento evento;
     scanf("%*c");
-    scanf("%[^\n]",evento.nome);
-    scanf("%*[\n]");
-    scanf("%d %d %d",&evento.dia,&evento.mes,&evento.ano);
     if(*numEventos<MAX_EVENTOS-1){
+        scanf("%[^\n]",evento.nome);
+        scanf("%*[\n]");
+        scanf("%d %d %d",&evento.dia,&evento.mes,&evento.ano);
         eventos[*numEventos]=evento;
         *numEventos=(*numEventos)+1;
         printf("Evento cadastrado com sucesso!\n");
