@@ -35,7 +35,7 @@ void ImprimePessoa(tPessoa *pessoa){
         }
         p=pessoa->irmao;
         if(p){
-            printf("IRMAO: %s\n",(pessoa->irmao)->nome);
+            printf("IRMAO: %s\n",p->nome);
         }else{
             printf("IRMAO: NAO INFORMADO\n");
         }
