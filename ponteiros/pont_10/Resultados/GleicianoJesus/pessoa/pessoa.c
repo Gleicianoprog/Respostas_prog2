@@ -19,19 +19,22 @@ int VerificaSeTemPaisPessoa(tPessoa *pessoa){
     return 0;
 }
 void ImprimePessoa(tPessoa *pessoa){
+    tPessoa *p=pessoa->pai;
     if(VerificaSeTemPaisPessoa(pessoa)){
         printf("NOME COMPLETO: %s\n",pessoa->nome);
-        if(pessoa->pai){
-            printf("PAI: %s\n",(pessoa->pai)->nome);
+        if(p){
+            printf("PAI: %s\n",(p)->nome);
         }else{
             printf("PAI: NAO INFORMADO\n");
         }
-        if(pessoa->mae){
-            printf("MAE: %s\n",(pessoa->mae)->nome);
+        p=pessoa->mae;
+        if(p){
+            printf("MAE: %s\n",(p)->nome);
         }else{
             printf("MAE: NAO INFORMADO\n");
         }
-        if(pessoa->irmao){
+        p=pessoa->irmao;
+        if(p){
             printf("IRMAO: %s\n",(pessoa->irmao)->nome);
         }else{
             printf("IRMAO: NAO INFORMADO\n");
