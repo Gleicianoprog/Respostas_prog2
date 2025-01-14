@@ -88,44 +88,44 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/4/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 104, frees: 104, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta completo (máximo 3.33) - 40.00 de 40 - 100.00% de 3.33: 3.33.
  -----
  - Pasta array / Caso 1:
  - Arquivo de output gerado: Resultados/GleicianoJesus/array/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta array / Caso 2:
  - Arquivo de output gerado: Resultados/GleicianoJesus/array/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta array / Caso 3:
  - Arquivo de output gerado: Resultados/GleicianoJesus/array/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta array / Caso 4:
  - Arquivo de output gerado: Resultados/GleicianoJesus/array/Casos/4/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 104, frees: 104, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta array (máximo 3.34) - 40.00 de 40 - 100.00% de 3.34: 3.34.

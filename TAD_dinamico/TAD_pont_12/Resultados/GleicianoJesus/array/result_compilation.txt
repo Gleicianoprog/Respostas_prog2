@@ -1,4 +1,4 @@
 array.c: In function ‘BuscaBinariaArray’:
-array.c:55:58: warning: unused variable ‘elementoAnterior’ [-Wunused-variable]
-   55 |     int maiorIdx=(array->tamanho)-1,idxMeio=0,menorIdx=0,elementoAnterior=-1;
+array.c:56:58: warning: unused variable ‘elementoAnterior’ [-Wunused-variable]
+   56 |     int maiorIdx=(array->tamanho)-1,idxMeio=0,menorIdx=0,elementoAnterior=-1;
       |                                                          ^~~~~~~~~~~~~~~~

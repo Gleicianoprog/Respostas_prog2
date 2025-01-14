@@ -6,7 +6,7 @@ Array *CriarArray(){
     Array*rtn;
     rtn=malloc(sizeof(Array));
     assert(rtn);
-    rtn->data=malloc(sizeof(int) * 100);
+    rtn->data=malloc(sizeof(int));
     assert(rtn->data);
     rtn->tamanho=0;
     return rtn;
@@ -25,8 +25,9 @@ void LerArray(Array *array){
         scanf("%*[\n]");
         scanf("%d",&num);
         scanf("%c",&lixo);
+        array->data=realloc(array->data, (array->tamanho+1) * sizeof(int));
         array->data[array->tamanho]=num;
-        array->tamanho=array->tamanho+1;
+        array->tamanho=(array->tamanho)+1;
         if(lixo=='.'){
             break;
         }
