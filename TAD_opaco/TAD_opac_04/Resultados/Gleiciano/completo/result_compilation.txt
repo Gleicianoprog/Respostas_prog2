@@ -1,0 +1,7 @@
+aluno.c: In function ‘LeAluno’:
+aluno.c:26:9: warning: unused variable ‘tam’ [-Wunused-variable]
+   26 |     int tam=0,matricula=0,n1=0,n2=0,n3=0;
+      |         ^~~
+aluno.c:25:10: warning: unused variable ‘c’ [-Wunused-variable]
+   25 |     char c;
+      |          ^

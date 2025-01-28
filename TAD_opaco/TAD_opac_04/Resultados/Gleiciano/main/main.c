@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include"aluno.h"
+#include<stdlib.h>
 int main(){
     int tam,i=0,j=0;
     scanf("%d\n",&tam);
-    tAluno *alunos[tam],*aux;
+    tAluno **alunos,*aux;
+    alunos=malloc((sizeof(tAluno *) * tam));
     while (i<tam){
         alunos[i]=CriaAluno(alunos[i]);
         LeAluno(alunos[i]);
@@ -27,5 +29,6 @@ int main(){
     for ( i = 0; i < tam; i++){
         ApagaAluno(alunos[i]);
     }
+    free(alunos);
     return 0;
 }

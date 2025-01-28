@@ -6,12 +6,12 @@ Teste main
   - Valgrinds corretos: 3 de 3
 Nota de Gleiciano para o teste main: 3.34
 Teste completo
-  - Resultados corretos: 1 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Gleiciano para o teste completo: .53
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Gleiciano para o teste completo: 3.33
 Teste aluno
-  - Resultados corretos: 1 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Gleiciano para o teste aluno: .53
-Nota de Gleiciano: 0+(.53)+(3.34)+(.53)
-Nota de Gleiciano: 4.40
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Gleiciano para o teste aluno: 3.33
+Nota de Gleiciano: 0+(3.33)+(3.34)+(3.33)
+Nota de Gleiciano: 10.00
