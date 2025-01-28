@@ -24,27 +24,23 @@ void ApagaAluno(tAluno *aluno){
 void LeAluno(tAluno *aluno){
     char c;
     int tam=0,matricula=0,n1=0,n2=0,n3=0;
-    aluno->nome=malloc(sizeof(char)*100);
-    scanf("%s",aluno->nome);
-    //aluno->nome[tam]=c;
-    // while (1){
-    //     if(c=='\n'){
-    //         break;
-    //     }
-    //     // if(!tam){
-    //     //     tam++;
-    //     // }
-    //     tam++;
-    //     aluno->nome=realloc(aluno->nome,(sizeof(char)*tam));
-    // }
-    //aluno->nome[tam]='\0';
+    aluno->nome = malloc(sizeof(char));
+    while (1) {
+        scanf("%c", &c);
+        if (c == '\n') {
+            break;
+        }
+        tam++;
+        aluno->nome=realloc(aluno->nome, sizeof(char) * (tam + 1));
+        aluno->nome[tam - 1] = c;
+    }
+    aluno->nome[tam] = '\0';
     scanf("%d\n",&matricula);
     scanf("%d %d %d\n",&n1,&n2,&n3);
     aluno->n1=n1;
     aluno->n2=n2;
     aluno->n3=n3;
     aluno->matricula=matricula;
-    //scanf("%*c");
 }
 void ImprimeAluno(tAluno* aluno){
     printf("%s\n",aluno->nome);

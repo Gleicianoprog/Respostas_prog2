@@ -83,34 +83,34 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Gleiciano/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Gleiciano/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Gleiciano/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta completo (máximo 3.33) - 30.00 de 30 - 100.00% de 3.33: 3.33.
  -----
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/Gleiciano/aluno/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta aluno / Caso 2:
  - Arquivo de output gerado: Resultados/Gleiciano/aluno/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta aluno / Caso 3:
  - Arquivo de output gerado: Resultados/Gleiciano/aluno/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta aluno (máximo 3.33) - 30.00 de 30 - 100.00% de 3.33: 3.33.
