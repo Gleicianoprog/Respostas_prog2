@@ -1,0 +1,15 @@
+==81781== Memcheck, a memory error detector
+==81781== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==81781== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==81781== Command: Resultados/GleicianoJesus/ponto/prog Resultados/GleicianoJesus/ponto/Casos/3
+==81781== Parent PID: 81780
+==81781== 
+==81781== 
+==81781== HEAP SUMMARY:
+==81781==     in use at exit: 0 bytes in 0 blocks
+==81781==   total heap usage: 6 allocs, 6 frees, 8,232 bytes allocated
+==81781== 
+==81781== All heap blocks were freed -- no leaks are possible
+==81781== 
+==81781== For lists of detected and suppressed errors, rerun with: -s
+==81781== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ponto.h": "c",
+        "circulo.h": "c",
+        "math.h": "c"
+    }
+}

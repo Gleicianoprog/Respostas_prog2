@@ -1,0 +1,12 @@
+circulo.c: In function ‘Circulo_Apaga’:
+circulo.c:18:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   18 |         printf("problema ao apagar o circulo!\n");
+      |         ^~~~~~
+circulo.c:4:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    3 | #include"circulo.h"
+  +++ |+#include <stdio.h>
+    4 | struct circulo{
+circulo.c:18:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   18 |         printf("problema ao apagar o circulo!\n");
+      |         ^~~~~~
+circulo.c:18:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

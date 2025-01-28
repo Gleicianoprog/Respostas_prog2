@@ -1,0 +1,352 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: GleicianoJesus
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GleicianoJesus:
+ - Diretório Resultados/GleicianoJesus criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/main criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/completo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/circulo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/ponto criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GleicianoJesus/circulo.c' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/circulo.h' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/main.c' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/ponto.c' encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/ponto.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/main
+ - Copiando os Includes/*.h do professor para a pasta Resultados/GleicianoJesus/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/GleicianoJesus/main
+ - Removendo o main.o do professor da pasta Resultados/GleicianoJesus/main
+ - Copiando o Respostas/GleicianoJesus/main.c do aluno para a pasta Resultados/GleicianoJesus/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/circulo.c do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/circulo.h do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/main.c do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/ponto.c do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Copiando os Respostas/GleicianoJesus/ponto.h do aluno para a pasta Resultados/GleicianoJesus/completo
+ - Pasta circulo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/circulo
+ - Copiando os Includes/*.h do professor para a pasta Resultados/GleicianoJesus/circulo
+ - Copiando os Includes/*.o do professor para a pasta Resultados/GleicianoJesus/circulo
+ - Removendo o circulo.o do professor da pasta Resultados/GleicianoJesus/circulo
+ - Copiando o Respostas/GleicianoJesus/circulo.c do aluno para a pasta Resultados/GleicianoJesus/circulo
+ - Pasta ponto:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/ponto
+ - Copiando os Includes/*.h do professor para a pasta Resultados/GleicianoJesus/ponto
+ - Copiando os Includes/*.o do professor para a pasta Resultados/GleicianoJesus/ponto
+ - Removendo o ponto.o do professor da pasta Resultados/GleicianoJesus/ponto
+ - Copiando o Respostas/GleicianoJesus/ponto.c do aluno para a pasta Resultados/GleicianoJesus/ponto
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta circulo ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta ponto ok!
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/result_linking.txt
+ - Pasta circulo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) circulo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/result_linking.txt
+ - Pasta ponto:
+ - Gerando o binário prog linkando com o(s) arquivo(s) ponto/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 60.00 de 60 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 60.00 de 60 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta circulo / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta circulo / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta circulo / Caso 3:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta circulo / Caso 4:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta circulo / Caso 5:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta circulo / Caso 6:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/circulo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta circulo (máximo 2.50) - 60.00 de 60 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta ponto / Caso 1:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ponto / Caso 2:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ponto / Caso 3:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ponto / Caso 4:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ponto / Caso 5:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ponto / Caso 6:
+ - Arquivo de output gerado: Resultados/GleicianoJesus/ponto/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta ponto (máximo 2.50) - 60.00 de 60 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+ALUNO: GleicianoJesus/.vscode
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GleicianoJesus/.vscode:
+ - Diretório Resultados/GleicianoJesus/.vscode criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/main criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/completo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/circulo criado com sucesso!
+ - Diretório Resultados/GleicianoJesus/.vscode/ponto criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/circulo.c' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/circulo.h' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/ponto.c' não encontrado!
+ - Arquivo esperado 'Respostas/GleicianoJesus/.vscode/ponto.h' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/completo
+ - Pasta circulo:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/circulo
+ - Pasta ponto:
+ - Copiando os Casos de teste para a pasta Resultados/GleicianoJesus/.vscode/ponto
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Erro de compilação! Verifique os arquivos da pasta circulo.
+ - Erro de compilação! Verifique os arquivos da pasta ponto.
+ - Arquivos Compilados: Erro!: 4 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/completo/result_linking.txt
+ - Pasta circulo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) circulo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/circulo/result_linking.txt
+ - Pasta ponto:
+ - Gerando o binário prog linkando com o(s) arquivo(s) ponto/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GleicianoJesus/.vscode/ponto/result_linking.txt
+ - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 0 de 10 - 0% de 2.50: 0.
+ -----
+ - Pasta completo / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 0 de 10 - 0% de 2.50: 0.
+ -----
+ - Pasta circulo / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta circulo (máximo 2.50) - 0 de 10 - 0% de 2.50: 0.
+ -----
+ - Pasta ponto / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta ponto (máximo 2.50) - 0 de 10 - 0% de 2.50: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: GleicianoJesus
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de GleicianoJesus para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de GleicianoJesus para o teste completo: 2.50
+ - Teste circulo
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de GleicianoJesus para o teste circulo: 2.50
+ - Teste ponto
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de GleicianoJesus para o teste ponto: 2.50
+ - Nota de GleicianoJesus: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de GleicianoJesus: 10.00
+
+----------------------------------------------------------------------------
+Aluno: GleicianoJesus/.vscode
+ - Arquivos Esperados Corretos: 0 de 5
+ - Pastas Compiladas Corretamente: 0 de 4 
+ - Pastas Linkadas Corretamente: 0 de 4
+ - Teste main
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de GleicianoJesus/.vscode para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de GleicianoJesus/.vscode para o teste completo: 0
+ - Teste circulo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de GleicianoJesus/.vscode para o teste circulo: 0
+ - Teste ponto
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de GleicianoJesus/.vscode para o teste ponto: 0
+ - Nota de GleicianoJesus/.vscode: 0+(0)+(0)+(0)+(0)
+ - Nota de GleicianoJesus/.vscode: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
