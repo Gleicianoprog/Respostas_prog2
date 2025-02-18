@@ -1,0 +1,163 @@
+==259926== Memcheck, a memory error detector
+==259926== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==259926== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==259926== Command: Resultados/GleicianoJesus/completo/prog Resultados/GleicianoJesus/completo/Casos/2
+==259926== Parent PID: 259925
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9171: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A918B: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A2D36: __mpn_extract_double (dbl2mpn.c:56)
+==259926==    by 0x49A9915: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A2D3B: __mpn_extract_double (dbl2mpn.c:60)
+==259926==    by 0x49A9915: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A98C4: __printf_fp_buffer_1.isra.0 (printf_fp.c:794)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9AEB: __printf_fp_buffer_1.isra.0 (printf_fp.c:805)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9B16: __printf_fp_buffer_1.isra.0 (printf_fp.c:808)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9B4C: __printf_fp_buffer_1.isra.0 (printf_fp.c:818)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9F89: round_away (rounding-mode.h:52)
+==259926==    by 0x49A9F89: __printf_fp_buffer_1.isra.0 (printf_fp.c:825)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9CCD: __printf_fp_buffer_1.isra.0 (printf_fp.c:987)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Conditional jump or move depends on uninitialised value(s)
+==259926==    at 0x49A9D23: __printf_fp_buffer_1.isra.0 (printf_fp.c:999)
+==259926==    by 0x49AB34B: __printf_fp_l_buffer (printf_fp.c:1122)
+==259926==    by 0x49B26B4: __printf_fp_spec (vfprintf-internal.c:266)
+==259926==    by 0x49B26B4: __printf_buffer (vfprintf-internal.c:999)
+==259926==    by 0x49B372A: __vfprintf_internal (vfprintf-internal.c:1544)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== Syscall param write(buf) points to uninitialised byte(s)
+==259926==    at 0x4A64574: write (write.c:26)
+==259926==    by 0x49DB964: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==259926==    by 0x49DA560: new_do_write (fileops.c:449)
+==259926==    by 0x49DA560: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==259926==    by 0x49DE1D5: _IO_flush_all (genops.c:705)
+==259926==    by 0x49DE7FC: _IO_cleanup (genops.c:843)
+==259926==    by 0x498FB63: __run_exit_handlers (exit.c:129)
+==259926==    by 0x498FBAD: exit (exit.c:138)
+==259926==    by 0x49721D0: (below main) (libc_start_call_main.h:74)
+==259926==  Address 0x4b5d137 is 7 bytes inside a block of size 4,096 alloc'd
+==259926==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==259926==    by 0x49CD1A4: _IO_file_doallocate (filedoalloc.c:101)
+==259926==    by 0x49DD513: _IO_doallocbuf (genops.c:347)
+==259926==    by 0x49DAF7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==259926==    by 0x49DBA9E: _IO_new_file_xsputn (fileops.c:1244)
+==259926==    by 0x49DBA9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==259926==    by 0x49A8CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+==259926==    by 0x49A8CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+==259926==    by 0x49B3732: __vfprintf_internal (vfprintf-internal.c:1545)
+==259926==    by 0x49A81A2: printf (printf.c:33)
+==259926==    by 0x109578: ImprimeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109488: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== 
+==259926== HEAP SUMMARY:
+==259926==     in use at exit: 112 bytes in 1 blocks
+==259926==   total heap usage: 3 allocs, 2 frees, 8,304 bytes allocated
+==259926== 
+==259926== 112 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==259926==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==259926==    by 0x1094B4: LeMissil (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926==    by 0x109478: main (in /home/gleiciano/pog2/Respostas_prog2/TAD_opaco/TAD_opac_19/Resultados/GleicianoJesus/completo/prog)
+==259926== 
+==259926== LEAK SUMMARY:
+==259926==    definitely lost: 112 bytes in 1 blocks
+==259926==    indirectly lost: 0 bytes in 0 blocks
+==259926==      possibly lost: 0 bytes in 0 blocks
+==259926==    still reachable: 0 bytes in 0 blocks
+==259926==         suppressed: 0 bytes in 0 blocks
+==259926== 
+==259926== Use --track-origins=yes to see where uninitialised values come from
+==259926== For lists of detected and suppressed errors, rerun with: -s
+==259926== ERROR SUMMARY: 15 errors from 13 contexts (suppressed: 0 from 0)

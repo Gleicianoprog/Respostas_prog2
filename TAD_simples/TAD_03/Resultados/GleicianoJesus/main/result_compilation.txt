@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:7:9: warning: unused variable ‘primeiro’ [-Wunused-variable]
+    7 |     int primeiro=1;
+      |         ^~~~~~~~

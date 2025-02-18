@@ -1,21 +1,21 @@
 Arquivos Esperados Corretos: 5 de 5
 Pastas Compiladas Corretamente: 4 de 4 
-Pastas Linkadas Corretamente: 4 de 4
+Pastas Linkadas Corretamente: 3 de 4
 Teste main
-  - Resultados corretos: 19 de 19
+  - Resultados corretos: 0 de 19
   - Valgrinds corretos: 19 de 19
-Nota de GleicianoNascimento para o teste main: 2.50
+Nota de GleicianoNascimento para o teste main: 0
 Teste completo
-  - Resultados corretos: 19 de 19
+  - Resultados corretos: 0 de 19
   - Valgrinds corretos: 19 de 19
-Nota de GleicianoNascimento para o teste completo: 2.50
+Nota de GleicianoNascimento para o teste completo: 0
 Teste locadora
-  - Resultados corretos: 19 de 19
-  - Valgrinds corretos: 19 de 19
-Nota de GleicianoNascimento para o teste locadora: 2.50
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 0 de 19
+Nota de GleicianoNascimento para o teste locadora: 0
 Teste filme
   - Resultados corretos: 19 de 19
   - Valgrinds corretos: 19 de 19
 Nota de GleicianoNascimento para o teste filme: 2.50
-Nota de GleicianoNascimento: 0+(2.50)+(2.50)+(2.50)+(2.50)
-Nota de GleicianoNascimento: 10.00
+Nota de GleicianoNascimento: 0+(0)+(0)+(0)+(2.50)
+Nota de GleicianoNascimento: 2.50

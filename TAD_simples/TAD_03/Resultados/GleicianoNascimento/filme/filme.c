@@ -8,11 +8,18 @@ tFilme criarFilme (char* nome, int codigo, int valor, int quantidade){
         rtn.nome[i]=nome[i];
         i++;
     }
-    rtn.nome[i]='\0';
+    rtn.nome[i]=nome[i];
     rtn.codigo=codigo;
     rtn.valor=valor;
     rtn.qtdEstoque=quantidade;
     rtn.qtdAlugada=0;
+    return rtn;
+}
+tFilme leFilme(int codigo){
+    tFilme rtn;
+    rtn.codigo=codigo;
+    scanf("%[^,],%d,%d\n",rtn.nome,&rtn.valor,&rtn.qtdEstoque);
+    rtn=criarFilme(rtn.nome,rtn.codigo,rtn.valor,rtn.qtdEstoque);
     return rtn;
 }
 int obterCodigoFilme (tFilme filme){
@@ -34,8 +41,8 @@ int ehMesmoCodigoFilme (tFilme filme, int codigo){
     return (filme.codigo==codigo)?1:0;
 }
 tFilme alugarFilme (tFilme filme){
-    filme.qtdEstoque--;
     filme.qtdAlugada++;
+    filme.qtdEstoque--;
     return filme;
 }
 tFilme devolverFilme (tFilme filme){
@@ -45,11 +52,4 @@ tFilme devolverFilme (tFilme filme){
 }
 int compararNomesFilmes (tFilme filme1, tFilme filme2){
     return strcmp(filme1.nome,filme2.nome);
-}
-tFilme leFilme(int codigo){
-    tFilme rtn;
-    rtn.codigo=codigo;
-    scanf("%[^,],%d,%d\n",rtn.nome,&rtn.valor,&rtn.qtdEstoque);
-    rtn.qtdAlugada=0;
-    return rtn;
 }

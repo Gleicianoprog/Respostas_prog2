@@ -1,0 +1,4 @@
+defesa.c: In function ‘VerificaSeDentroArea’:
+defesa.c:35:23: warning: unused variable ‘raio’ [-Wunused-variable]
+   35 |     float distancia=0,raio;
+      |                       ^~~~
