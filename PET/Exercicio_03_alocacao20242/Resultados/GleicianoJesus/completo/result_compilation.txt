@@ -1,0 +1,13 @@
+main.c: In function ‘main’:
+main.c:41:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   41 |             if(contaAtual=BuscaConta(contas, qtdContas,nConta1)){
+      |                ^~~~~~~~~~
+main.c:46:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   46 |             if(contaAtual=BuscaConta(contas, qtdContas,nConta1)){
+      |                ^~~~~~~~~~
+main.c:27:61: warning: unused variable ‘idx2’ [-Wunused-variable]
+   27 |     int op=0,nConta2=0,nConta1=-1,qtdContas=0,cpf=-1,idx1=0,idx2=0,qtdTransacoes=0;
+      |                                                             ^~~~
+main.c:27:54: warning: unused variable ‘idx1’ [-Wunused-variable]
+   27 |     int op=0,nConta2=0,nConta1=-1,qtdContas=0,cpf=-1,idx1=0,idx2=0,qtdTransacoes=0;
+      |                                                      ^~~~
