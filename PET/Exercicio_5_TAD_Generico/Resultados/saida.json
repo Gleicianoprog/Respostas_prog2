@@ -1,0 +1,12 @@
+{
+	"alunos": [
+		{
+			"Nome":"GleicianoJesus",
+			"Nota":1.00
+		},
+		{
+			"Nome":"GleicianoJesus/.vscode",
+			"Nota":0
+		}
+	]
+}

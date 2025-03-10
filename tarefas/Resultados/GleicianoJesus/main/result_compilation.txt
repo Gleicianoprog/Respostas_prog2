@@ -1,0 +1,18 @@
+main.c: In function ‘main’:
+main.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   11 |     printf("Digite o numero de tarefas:\n");
+      |     ^~~~~~
+main.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include"tarefasoma.h"
+  +++ |+#include <stdio.h>
+    5 | int main(){
+main.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   11 |     printf("Digite o numero de tarefas:\n");
+      |     ^~~~~~
+main.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+main.c:12:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   12 |     scanf("%d\n",&qtd);
+      |     ^~~~~
+main.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+main.c:12:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+main.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

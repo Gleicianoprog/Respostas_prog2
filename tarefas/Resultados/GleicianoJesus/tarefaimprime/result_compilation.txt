@@ -1,0 +1,4 @@
+tarefaimprime.c: In function ‘CriaTarefaImprimir’:
+tarefaimprime.c:21:11: warning: unused variable ‘mensagem’ [-Wunused-variable]
+   21 |     char *mensagem;
+      |           ^~~~~~~~

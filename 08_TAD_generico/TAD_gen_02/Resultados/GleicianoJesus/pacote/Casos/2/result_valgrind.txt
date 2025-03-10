@@ -1,0 +1,59 @@
+==6693== Memcheck, a memory error detector
+==6693== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==6693== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==6693== Command: Resultados/GleicianoJesus/pacote/prog Resultados/GleicianoJesus/pacote/Casos/2
+==6693== Parent PID: 6692
+==6693== 
+==6693== Conditional jump or move depends on uninitialised value(s)
+==6693==    at 0x48D50CB: __printf_buffer (vfprintf-process-arg.c:58)
+==6693==    by 0x48D673A: __vfprintf_internal (vfprintf-internal.c:1544)
+==6693==    by 0x48CB1B2: printf (printf.c:33)
+==6693==    by 0x109736: ImprimePacote (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x109361: ImprimirTodosPacotes (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x10954E: main (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693== 
+==6693== Use of uninitialised value of size 8
+==6693==    at 0x48CA0BB: _itoa_word (_itoa.c:183)
+==6693==    by 0x48D4C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==6693==    by 0x48D673A: __vfprintf_internal (vfprintf-internal.c:1544)
+==6693==    by 0x48CB1B2: printf (printf.c:33)
+==6693==    by 0x109736: ImprimePacote (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x109361: ImprimirTodosPacotes (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x10954E: main (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693== 
+==6693== Conditional jump or move depends on uninitialised value(s)
+==6693==    at 0x48CA0CC: _itoa_word (_itoa.c:183)
+==6693==    by 0x48D4C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==6693==    by 0x48D673A: __vfprintf_internal (vfprintf-internal.c:1544)
+==6693==    by 0x48CB1B2: printf (printf.c:33)
+==6693==    by 0x109736: ImprimePacote (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x109361: ImprimirTodosPacotes (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x10954E: main (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693== 
+==6693== Conditional jump or move depends on uninitialised value(s)
+==6693==    at 0x48D4D85: __printf_buffer (vfprintf-process-arg.c:186)
+==6693==    by 0x48D673A: __vfprintf_internal (vfprintf-internal.c:1544)
+==6693==    by 0x48CB1B2: printf (printf.c:33)
+==6693==    by 0x109736: ImprimePacote (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x109361: ImprimirTodosPacotes (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x10954E: main (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693== 
+==6693== Conditional jump or move depends on uninitialised value(s)
+==6693==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6693==    by 0x48D5DA7: __printf_buffer (vfprintf-process-arg.c:435)
+==6693==    by 0x48D673A: __vfprintf_internal (vfprintf-internal.c:1544)
+==6693==    by 0x48CB1B2: printf (printf.c:33)
+==6693==    by 0x109760: ImprimePacote (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x109361: ImprimirTodosPacotes (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693==    by 0x10954E: main (in /home/gleiciano/Desktop/Respostas_prog2/08_TAD_generico/TAD_gen_02/Resultados/GleicianoJesus/pacote/prog)
+==6693== 
+==6693== 
+==6693== HEAP SUMMARY:
+==6693==     in use at exit: 0 bytes in 0 blocks
+==6693==   total heap usage: 69 allocs, 69 frees, 10,888 bytes allocated
+==6693== 
+==6693== All heap blocks were freed -- no leaks are possible
+==6693== 
+==6693== Use --track-origins=yes to see where uninitialised values come from
+==6693== For lists of detected and suppressed errors, rerun with: -s
+==6693== ERROR SUMMARY: 55 errors from 5 contexts (suppressed: 0 from 0)

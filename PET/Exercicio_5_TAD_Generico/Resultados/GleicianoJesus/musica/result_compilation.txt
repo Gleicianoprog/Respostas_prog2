@@ -1,0 +1,11 @@
+musica.c: In function ‘musica_construct’:
+musica.c:26:9: warning: unused variable ‘tamanho’ [-Wunused-variable]
+   26 |     int tamanho=0;
+      |         ^~~~~~~
+musica.c: In function ‘musica_print’:
+musica.c:43:17: warning: unused variable ‘i’ [-Wunused-variable]
+   43 |     int tamanho,i=0;
+      |                 ^
+musica.c:43:9: warning: unused variable ‘tamanho’ [-Wunused-variable]
+   43 |     int tamanho,i=0;
+      |         ^~~~~~~

@@ -1,0 +1,4 @@
+tadgen.c: In function ‘ImprimeGenerico’:
+tadgen.c:67:10: warning: unused variable ‘generico’ [-Wunused-variable]
+   67 |     int* generico;
+      |          ^~~~~~~~

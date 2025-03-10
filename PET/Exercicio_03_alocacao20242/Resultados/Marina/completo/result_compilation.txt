@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:40:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   40 |             if(contaAtual=BuscaConta(contas, qtdContas,nConta1)){
+      |                ^~~~~~~~~~
+main.c:45:16: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   45 |             if(contaAtual=BuscaConta(contas, qtdContas,nConta1)){
+      |                ^~~~~~~~~~

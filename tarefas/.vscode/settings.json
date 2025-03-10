@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "agendatarefas.h": "c",
+        "tarefasoma.h": "c"
+    }
+}

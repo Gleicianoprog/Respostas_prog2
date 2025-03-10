@@ -1,0 +1,7 @@
+pacote.c: In function ‘LePacote’:
+pacote.c:53:10: warning: unused variable ‘c’ [-Wunused-variable]
+   53 |     char c;
+      |          ^
+pacote.c:52:9: warning: unused variable ‘i’ [-Wunused-variable]
+   52 |     int i=0;
+      |         ^
